@@ -5,17 +5,21 @@
   "main": "index.js",
 
   "scripts": {
-  "start": "node dist/app.js",
-  "dev": "ts-node src/app.ts",
-  "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node dist/app.js",
+    "dev": "tsx src/app.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "tsx": "^4.20.6",
     "typescript": "^5.9.3"
+  },
+  "ts-node": {
+    "esm": true
   },
   "dependencies": {
     "ts-node": "^10.9.2"
