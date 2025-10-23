@@ -1,4 +1,4 @@
-import type { Animal, Persona, Producto } from "../interfaces/interfaces.js";
+import type { Animal, Persona, Producto } from "../interfaces/interfaces.js";       
 import type { Ciudad } from "../interfaces/interfaces.js";
 import type { Color } from "../interfaces/interfaces.js";
 import type { Libro } from "../interfaces/interfaces.js";
@@ -101,7 +101,7 @@ mostrarComputadora(Computadora);
 // 12. Define una función mostrarUsuarioDetallado con 
 // { usuario: string, rol: string } y muestre "usuario (rol)".
 const UsuarioDetallado: Usuario = {nombre: "Luis", rol: "admin"};
-function mostrarUsuarioDetallado({nombre,edad,rol}:Usuario){
+function mostrarUsuarioDetallado({nombre,rol}:Usuario){
     console.log(`${nombre}(${rol})`);
 }
 mostrarUsuarioDetallado(UsuarioDetallado);
