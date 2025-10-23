@@ -122,6 +122,8 @@ function imprimirPersona({nombre,profesion}:Persona){
 }
 imprimirPersona(persona);
 
+// 15. Crea una función resumenCuenta que reciba 
+// { titular: string, saldo: number } y retorne un resumen.
 const cuenta: Cuenta = {titular:"María",saldo:1500};
 function resumenCuenta({titular,saldo}:Cuenta){
     console.log(`Titular: ${titular}, Saldo: ${saldo}`);
