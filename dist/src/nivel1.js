@@ -1,3 +1,4 @@
+// Nivel 1 – Desestructuración básica
 //1. Crea una función saludarPersona que reciba un objeto
 //  con nombre y apellido y muestre un saludo completo.
 const Persona = { nombre: "Carlos", apellido: "Barrantes" };

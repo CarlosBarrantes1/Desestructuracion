@@ -10,6 +10,9 @@ import type { Pais } from "../interfaces/interfaces.js";
 import type { Computadora } from '../interfaces/interfaces.js';
 import type { Cuenta } from '../interfaces/interfaces.js';
 
+
+// Nivel 1 – Desestructuración básica
+
 //1. Crea una función saludarPersona que reciba un objeto
 //  con nombre y apellido y muestre un saludo completo.
 const Persona: Persona = { nombre: "Carlos", apellido: "Barrantes" };
